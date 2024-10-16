@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Google</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .google{
+            height: 100vh;
+            width: 100vw;
+            background-color: white;
+        }
+        .one{
+            height: 30px;
+            width: 30px;
+            color: blue;
+            background-color: blue;
+            border-radius: 50%;
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            animation: first 2s infinite;
+        }
+        @keyframes first{
+            0%{
+                transform: scale(0.8);
+            }
+            100%{
+                transform: scale(1.2);
+            }
+        }
+        .two{
+            height: 16px;
+            width: 16px;
+            color: blue;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 68px;
+            left: 52%;
+            animation: sec 1s infinite;
+        }
+        @keyframes sec{
+            0%{
+                transform: scale(0.5);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        
+        .three{
+            height: 18px;
+            width: 18px;
+            color: blue;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+            top: 88px;
+            left: 52%;
+            animation: th 1.5s infinite;
+        }
+        @keyframes th{
+            0%{
+                transform: scale(0.5);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        .four{
+            height: 8px;
+            width: 8px;
+            color: blue;
+            background-color: green;
+            border-radius: 50%;
+            position: absolute;
+            top: 63px;
+            left: 53%;
+            animation: fo 2s infinite;
+        }
+        @keyframes fo{
+            0%{
+                transform: scale(0.5);
+            }
+            100%{
+                transform: scale(0.9);
+            }
+        }
+        .say{
+            color: black;
+            position: absolute;
+            top: 130px;
+            left: 50%;
+            font-size: 25px;
+            font-family: sans-serif;
+        }
+        .h1{
+            color: black;
+            position: absolute;
+            top: 230px;
+            left: 48%;
+            /* font-size: 25px; */
+            font-family: sans-serif;
+        }
+        .circle{
+            height: 250px;
+            width: 250px;
+            background-color: white;
+            border-radius: 50%;
+            border-style: solid;
+            border-color: gray;
+            border-width: 5px;
+            position: absolute;
+            top: 330px;
+            left: 45%;
+        }
+        .five{
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: blue;
+            position: absolute;
+            top: 50%;
+            left: 36%;
+            animation: five 1.3s infinite;
+        }
+        @keyframes five{
+            0%{
+                transform: scaleY(1);
+            }
+            50%{
+                transform: scaleY(8);
+            }
+            100%{
+                transform: scaleY(1);
+            }
+        }
+        .six{
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            top: 50%;
+            left: 44%;
+            animation: six 1.5s infinite;
+        }
+        @keyframes six{
+            0%{
+                transform: scaleY(1);
+            }
+            50%{
+                transform: scaleY(7);
+            }
+            100%{
+                transform: scaleY(1);
+            }
+        }
+        .seven{
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: yellow;
+            position: absolute;
+            top: 50%;
+            left: 52%;
+            animation: seven 1s infinite;
+        }
+        @keyframes seven{
+            0%{
+                transform: scaleY(1);
+            }
+            50%{
+                transform: scaleY(6);
+            }
+            100%{
+                transform: scaleY(1);
+            }
+        }
+        .eight{
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background-color: green;
+            position: absolute;
+            top: 50%;
+            left: 60%;
+            animation: eight 2s infinite;
+        }
+        @keyframes eight{
+            0%{
+                transform: scaleY(1);
+            }
+            50%{
+                transform: scaleY(9);
+            }
+            100%{
+                transform: scaleY(1);
+            }
+        }
+        .button{
+            background: none;
+            border: 0;
+            color: blue;
+            font-size: large;
+            font-family: sans-serif;
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="google">
+        <div class="updot">
+            <center>
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            </center>
+        </div>
+        <p class="say">Say...</p>
+        <h1 class="h1">OK Google</h1>
+        <div class="circle">
+            <center>
+                <div class="five"></div>
+                <div class="six"></div>
+                <div class="seven"></div>
+                <div class="eight"></div>
+            </center>
+        </div>
+        <button class="button"><b>Cancel</b></button>
+    </div>
+</body>
+</html>
